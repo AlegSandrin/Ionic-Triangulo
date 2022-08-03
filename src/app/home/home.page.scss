@@ -1,11 +1,12 @@
 #container {
+  width: 90%;
   text-align: center;
-
-  position: absolute;
-  left: 0;
+  margin: 0px;
+  position: relative;
+  left: 5%;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 5%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #container strong {
@@ -17,11 +18,29 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #c1d7ef;
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+#cor ion-label{
+  color:rgb(172, 171, 223);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cor ion-item{
+  --background: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ion-button{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  --ion-background-color: rgb(13, 15, 44);
 }
